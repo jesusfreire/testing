@@ -5,19 +5,6 @@
     id="id-0e39259a202343f091e6b97b3c84f08f">
   <children
       xsi:type="archimate:DiagramModelArchimateObject"
-      id="id-02d6818b9cd847bca44c5e934e054e1b"
-      textAlignment="1">
-    <bounds
-        x="293"
-        y="301"
-        width="400"
-        height="140"/>
-    <archimateElement
-        xsi:type="archimate:Grouping"
-        href="Grouping_id-3d25855e74b44b419384b7f4227d54e8.xml#id-3d25855e74b44b419384b7f4227d54e8"/>
-  </children>
-  <children
-      xsi:type="archimate:DiagramModelArchimateObject"
       id="id-f02d0e7580f046c99ca0b336a07743a5">
     <bounds
         x="242"
@@ -39,5 +26,39 @@
     <archimateElement
         xsi:type="archimate:Capability"
         href="Capability_id-4fd7f719de8149e4a7756a9eecadb763.xml#id-4fd7f719de8149e4a7756a9eecadb763"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-ec27fa743c374c17bccb8557935467e3"
+      targetConnections="id-970bedffdecf43ed93108477425c0a37">
+    <bounds
+        x="436"
+        y="352"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:CourseOfAction"
+        href="CourseOfAction_id-99d448e00c974b0fbe7c18d5a6de1224.xml#id-99d448e00c974b0fbe7c18d5a6de1224"/>
+  </children>
+  <children
+      xsi:type="archimate:DiagramModelArchimateObject"
+      id="id-5f98f4895c77410eb1d22642d05b4e8e">
+    <sourceConnections
+        xsi:type="archimate:DiagramModelArchimateConnection"
+        id="id-970bedffdecf43ed93108477425c0a37"
+        source="id-5f98f4895c77410eb1d22642d05b4e8e"
+        target="id-ec27fa743c374c17bccb8557935467e3">
+      <archimateRelationship
+          xsi:type="archimate:CompositionRelationship"
+          href="CompositionRelationship_id-5b64f0652a674a22a7db1b0b36f207cb.xml#id-5b64f0652a674a22a7db1b0b36f207cb"/>
+    </sourceConnections>
+    <bounds
+        x="264"
+        y="372"
+        width="120"
+        height="55"/>
+    <archimateElement
+        xsi:type="archimate:CourseOfAction"
+        href="CourseOfAction_id-c504152d5cd84c4f9c36eaaa84439284.xml#id-c504152d5cd84c4f9c36eaaa84439284"/>
   </children>
 </archimate:ArchimateDiagramModel>
